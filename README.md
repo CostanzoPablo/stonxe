@@ -13,7 +13,12 @@
 ## Possible solutions
 * It offers a 10-pack for $1.10 per month. This allows you to follow 10 people, with each person following earning 10 cents, and the platform earning 10 cents for the infrastructure/business.
 * Create the concept of angels and demons. Demons that don't require onboarding and can pay with crypto. A demon's post will have replies from other demons first, and vice versa.
+* 3 views, to filter by light blue, purple, or red, to see only messages from angels, mixed, or demons. (background bar gradient).
+* Messages with stars. 1 star is public, 2 stars are sensitive content, and 3 stars are for police.
+* Add screenshot from shared links.
+* Allow add answers before confirm send message (with counter 10'' allowing cancel), to create a thread.
+* Allow set message as sensitive content before send it. Allow other users to flag message as sensitive.
 
 ## Infrastructure
-* Fast API + Cassandra
+* Cloudflare + N Pomerium Load Balancer + N NginX with Python Fast API + N Cassandra
 * Model the tables messages by country and by person (duplicate)
