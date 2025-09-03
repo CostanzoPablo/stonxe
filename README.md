@@ -24,7 +24,7 @@
 * Add icon like an sphere white or black. Karma define the color. Only LIKE/DISLIKE of Angels can define the karma value.
 * Sort answers by timestamp.
 * When an user A write a message, and other B answer it (only Angel), if the answer have more 25% likes (that original message):
-*   The system automatically start the challenge. The challenge consists in push sub thread to challenge section, allowing only answer user A, next B, next A etc.
+   The system automatically start the challenge. The challenge consists in push sub thread to challenge section, allowing only answer user A, next B, next A etc.
 * Support private messages, # hashtags and mentions @
 
 ## Infrastructure
