@@ -21,11 +21,12 @@
 * LIKE: 8 light blue / 42 violet / 34 red. DISLIKE: 22 light blue / 245 violet / 223 red.
 * Allow select display messages into answers (only angels/mix/only demon)
 * Add icon for define a user as angel or demon.
-* Add icon like an sphere white or black. Karma define the color. Only LIKE/DISLIKE of Angels can define the karma value.
+* Add icon like an sphere white or black. Karma define the color. Only LIKE/DISLIKE of Angels can define the karma value. Click on karma list Angels likes. (use total counter and a separated table for each user).
 * Sort answers by timestamp.
-* When an user A write a message, and other B answer it (only Angel), if the answer have more 25% likes (that original message):
+* When an user A write a message, and other B answer it (only Angel or if demon, hide challenge for all, and wait autorization from thread owner), if the answer have more 25% likes (that original message):
    The system automatically start the challenge. The challenge consists in push sub thread to challenge section, allowing only answer user A, next B, next A etc.
 * Support private and public groups, private messages, # hashtags and mentions @
+* Convert answer into challenge if owner thread answer it.
 
 ## Infrastructure
 * Cloudflare + N Pomerium Load Balancer + N NginX with Python Fast API + N Cassandra
