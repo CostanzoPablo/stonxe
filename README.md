@@ -26,7 +26,6 @@
 * When an user A write a message, and other B answer it (only Angel or if demon, hide challenge for all, and wait autorization from thread owner), if the answer have more 25% likes (that original message):
    The system automatically start the challenge. The challenge consists in push sub thread to challenge section, allowing only answer user A, next B, next A etc.
 * Support private and public groups, private messages, # hashtags and mentions @
-* Convert answer into challenge if owner thread answer it.
 
 ## Infrastructure
 * Cloudflare + N Pomerium Load Balancer + N NginX with Python Fast API + N Cassandra
